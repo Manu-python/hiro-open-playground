@@ -1,3 +1,5 @@
+![HIRO Open Playground banner](assets/docs-visuals/UT-IEEE-HIRO-Open-Playground-Banner.png)
+
 # HIRO Open Playground
 
 HIRO Open Playground is an educational, traceable workspace for experimenting with the [HIRO](https://github.com/TakamoriRobot/HIRO) quadruped movement library. It pairs a verified Arduino movement tester with a local browser control interface, movement references, and contributor documentation.
