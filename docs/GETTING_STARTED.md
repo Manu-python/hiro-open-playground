@@ -37,3 +37,9 @@ In development builds, **Use mock transport** is available for UI work without a
 5. Click **Disconnect** only when it is safe to release the port.
 
 Commands are not a safety-stop mechanism. The motion firmware is blocking, so do not assume a second command interrupts the first. See [Serial protocol](SERIAL_PROTOCOL.md).
+
+## Related documentation
+
+- [Movement reference](MOVEMENT_REFERENCE.md) — choose a fixed movement and view its GIF.
+- [Serial protocol](SERIAL_PROTOCOL.md) — understand command and completion limits.
+- [Documentation map](README.md) — navigate to another guide.

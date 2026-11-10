@@ -40,3 +40,9 @@ The sketch prints `Ready for next command.` after the function returns. The comm
 ### GIF serving
 
 Vite's `publicDir` points at the repository's canonical `assets/` folder. This serves the same media locally and copies it into production output without creating a second source copy. The UI renders only the selected preview.
+
+## Related documentation
+
+- [Development](DEVELOPMENT.md) — local commands and implementation conventions.
+- [Serial protocol](SERIAL_PROTOCOL.md) — the firmware contract this architecture preserves.
+- [Documentation map](README.md) — navigate to another guide.

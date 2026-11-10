@@ -28,3 +28,9 @@ Record the browser, operating system, board, serial port behavior, library versi
 ## Future protocol work
 
 Any protocol extension should begin with a separate firmware experiment, a documented compatibility plan, and tests. Consider explicit acknowledgements or telemetry only after validating their behavior and safety implications.
+
+## Related documentation
+
+- [Architecture](ARCHITECTURE.md) — component responsibilities and design decisions.
+- [Contributing](../CONTRIBUTING.md) — review and firmware-safety expectations.
+- [Documentation map](README.md) — navigate to another guide.

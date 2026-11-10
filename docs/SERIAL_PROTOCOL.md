@@ -27,3 +27,9 @@ For commands `0..14`, the sketch prints `Executing command: N`, calls `neutralSt
 - The UI prevents another card command until the recognizable `Ready for next command.` firmware line arrives. This is a conservative firmware-flow hint, not mechanical telemetry.
 - Terminal input remains intentionally direct for debugging. Users should not send additional motion commands while the robot is busy.
 - A physical power disconnect must remain available. The protocol contains no validated emergency-stop command.
+
+## Related documentation
+
+- [Getting started](GETTING_STARTED.md) — flash the tester and connect the GUI.
+- [Movement reference](MOVEMENT_REFERENCE.md) — command names, functions, and GIFs.
+- [Documentation map](README.md) — navigate to another guide.

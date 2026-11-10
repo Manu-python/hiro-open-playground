@@ -6,6 +6,8 @@ HIRO Open Playground is an educational, traceable workspace for experimenting wi
 
 It is being developed by students in the Vanguard university outreach program, including the IEEE Student Branch at UT Austin, for students learning robotics at their own institutions. This repository is independent community work: it is **not** an official Takamori Robot product, does not replace its software, and does not claim endorsement or ownership of HIRO.
 
+Current maintenance release: **v1.1**. See the [release notes](CHANGELOG.md) and the [documentation map](docs/README.md).
+
 ## Current status
 
 Implemented:
@@ -52,9 +54,11 @@ HIRO can move after a serial write finishes. The firmware is blocking while it r
 
 The interface reports that a command was written, not that a motion completed. Do not queue or repeatedly issue movement commands while the firmware is busy.
 
-## Roadmap
+## Release status and roadmap
 
-Part 1 delivers documented fixed movements, direct USB serial control, mock development, and tests. Future work may consider documented choreography, configurable parameters, alternate transports, and real telemetry only after protocol and hardware behavior are validated.
+- **v1.0 — complete:** Part 1 delivered documented fixed movements, direct USB serial control, mock development, and tests.
+- **v1.1 — current:** Documentation navigation, compact movement-reference media, and small visual cleanup. No firmware, serial-protocol, or platform-identity behavior changed.
+- **Future:** Consider documented choreography, configurable parameters, alternate transports, and real telemetry only after protocol and hardware behavior are validated.
 
 ## Contributing
 
@@ -62,9 +66,4 @@ Start with [CONTRIBUTING.md](CONTRIBUTING.md) and [Development](docs/DEVELOPMENT
 
 ## Documentation
 
-- [Getting started](docs/GETTING_STARTED.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Serial protocol](docs/SERIAL_PROTOCOL.md)
-- [Movement reference](docs/MOVEMENT_REFERENCE.md)
-- [Development](docs/DEVELOPMENT.md)
-- [Contributing](CONTRIBUTING.md)
+Start at the [documentation map](docs/README.md) for the shortest route to setup, protocol, movements, architecture, or contribution guidance.

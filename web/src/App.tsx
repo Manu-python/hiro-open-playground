@@ -11,7 +11,6 @@ export default function App() {
     <MovementPanel connected={hiro.state === "connected"} motionState={hiro.motionState} onMovement={(id) => void hiro.executeMovement(id)} />
     <Terminal entries={hiro.entries} connected={hiro.state === "connected"} onSend={(input) => void hiro.sendTerminal(input)} onClear={hiro.clearTerminal}/>
     <footer>
-      <span>Part 1: direct USB serial control only. Physical hardware behavior has not been validated by this web interface.</span>
       <span className="developer-credit">Develop by: <span className="developer-logo"><img src="/logos/ut_ieee_logo_2.png" alt="UT IEEE logo" /></span></span>
     </footer>
   </main>;

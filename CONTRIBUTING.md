@@ -24,3 +24,9 @@ Use TypeScript types at public boundaries, keep browser serial APIs inside trans
 ## Safety
 
 Never add a UI control that claims to stop a movement unless firmware and hardware behavior have been deliberately validated. Keep connection errors visible and retain a physical power-disconnect plan during tests.
+
+## Documentation shortcuts
+
+- [Development](docs/DEVELOPMENT.md) — local setup and tests.
+- [Architecture](docs/ARCHITECTURE.md) — code responsibilities and extension points.
+- [Documentation map](docs/README.md) — all guides in one place.

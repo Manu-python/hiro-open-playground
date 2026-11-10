@@ -15,3 +15,8 @@ Use the browser Web Serial API behind the `SerialTransport` interface. It is ava
 ## Consequences
 
 No server or extension is required for supported browsers. Other browsers cannot directly control HIRO through this interface. The transport abstraction intentionally leaves room for a future local bridge, WebSocket transport, or wireless adapter without changing the React controls.
+
+## Related documentation
+
+- [Architecture](ARCHITECTURE.md) — how this decision shapes the application.
+- [Documentation map](README.md) — navigate to another guide.
