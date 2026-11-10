@@ -2,6 +2,16 @@
 
 This log records repository-level releases. It does not claim changes to the upstream Takamori Robot HIRO library.
 
+## v1.1.2 — README home-screen reference
+
+- Added the v1.1.1 web GUI home-screen image to the root README's Current status section.
+- Updated release and documentation navigation to identify v1.1.2 as the current maintenance version.
+- Preserved firmware, the serial protocol, movement catalog, canonical movement GIFs, and web-app behavior.
+
+## v1.1.1 — header label cleanup
+
+- Shortened the web GUI eyebrow label from `Vanguard outreach • IEEE UT Austin` to `Vanguard • IEEE UT Austin`.
+
 ## v1.1 — documentation and UI maintenance
 
 - Reorganized the movement reference into smaller, grouped GIF galleries.

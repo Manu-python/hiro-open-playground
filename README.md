@@ -6,9 +6,11 @@ HIRO Open Playground is an educational, traceable workspace for experimenting wi
 
 It is being developed by students in the Vanguard university outreach program, including the IEEE Student Branch at UT Austin, for students learning robotics at their own institutions. This repository is independent community work: it is **not** an official Takamori Robot product, does not replace its software, and does not claim endorsement or ownership of HIRO.
 
-Current maintenance release: **v1.1**. See the [release notes](CHANGELOG.md) and the [documentation map](docs/README.md).
+Current maintenance release: **v1.1.2**. See the [release notes](CHANGELOG.md) and the [documentation map](docs/README.md).
 
 ## Current status
+
+![HIRO Open Playground v1.1.1 home screen](assets/docs-visuals/HIRO-Open-Playground-Home-v1.1.1.png)
 
 Implemented:
 
@@ -57,7 +59,9 @@ The interface reports that a command was written, not that a motion completed. D
 ## Release status and roadmap
 
 - **v1.0 — complete:** Part 1 delivered documented fixed movements, direct USB serial control, mock development, and tests.
-- **v1.1 — current:** Documentation navigation, compact movement-reference media, and small visual cleanup. No firmware, serial-protocol, or platform-identity behavior changed.
+- **v1.1:** Documentation navigation, compact movement-reference media, and small visual cleanup. No firmware, serial-protocol, or platform-identity behavior changed.
+- **v1.1.1:** Shortened the web GUI header label to “Vanguard • IEEE UT Austin.”
+- **v1.1.2 — current:** Added the v1.1.1 home-screen reference to this README and updated release navigation.
 - **Future:** Consider documented choreography, configurable parameters, alternate transports, and real telemetry only after protocol and hardware behavior are validated.
 
 ## Contributing
